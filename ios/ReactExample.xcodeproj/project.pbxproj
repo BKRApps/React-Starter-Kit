@@ -22,10 +22,10 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		2D316B601FDBBE0300DB804B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D316B5F1FDBBE0300DB804B /* Main.storyboard */; };
-		2D316B841FDBBE8300DB804B /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D316B831FDBBE8300DB804B /* IntroViewController.m */; };
-		2D316B871FDBC87D00DB804B /* IntroCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D316B861FDBC87D00DB804B /* IntroCell.m */; };
-		2D316B8A1FDBCCD400DB804B /* ReactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D316B891FDBCCD400DB804B /* ReactViewController.m */; };
+		2DA51B6E1FDC19410078F927 /* IntroCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA51B671FDC19410078F927 /* IntroCell.m */; };
+		2DA51B6F1FDC19410078F927 /* ReactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA51B681FDC19410078F927 /* ReactViewController.m */; };
+		2DA51B701FDC19410078F927 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA51B6A1FDC19410078F927 /* IntroViewController.m */; };
+		2DA51B711FDC19410078F927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA51B6C1FDC19410078F927 /* Main.storyboard */; };
 		2DDB2F981FD9256100B43BE8 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 2DDB2F971FD9256000B43BE8 /* main.jsbundle */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
@@ -292,13 +292,13 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactExample/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		2D316B5F1FDBBE0300DB804B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		2D316B821FDBBE8300DB804B /* IntroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
-		2D316B831FDBBE8300DB804B /* IntroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
-		2D316B851FDBC87D00DB804B /* IntroCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroCell.h; sourceTree = "<group>"; };
-		2D316B861FDBC87D00DB804B /* IntroCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroCell.m; sourceTree = "<group>"; };
-		2D316B881FDBCCD400DB804B /* ReactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactViewController.h; sourceTree = "<group>"; };
-		2D316B891FDBCCD400DB804B /* ReactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactViewController.m; sourceTree = "<group>"; };
+		2DA51B671FDC19410078F927 /* IntroCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroCell.m; path = ReactExample/IntroCell.m; sourceTree = "<group>"; };
+		2DA51B681FDC19410078F927 /* ReactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReactViewController.m; path = ReactExample/ReactViewController.m; sourceTree = "<group>"; };
+		2DA51B691FDC19410078F927 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroViewController.h; path = ReactExample/IntroViewController.h; sourceTree = "<group>"; };
+		2DA51B6A1FDC19410078F927 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroViewController.m; path = ReactExample/IntroViewController.m; sourceTree = "<group>"; };
+		2DA51B6B1FDC19410078F927 /* IntroCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroCell.h; path = ReactExample/IntroCell.h; sourceTree = "<group>"; };
+		2DA51B6C1FDC19410078F927 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ReactExample/Main.storyboard; sourceTree = "<group>"; };
+		2DA51B6D1FDC19410078F927 /* ReactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReactViewController.h; path = ReactExample/ReactViewController.h; sourceTree = "<group>"; };
 		2DDB2F971FD9256000B43BE8 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.jsbundle; path = ReactExample/main.jsbundle; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
@@ -420,18 +420,18 @@
 		13B07FAE1A68108700A75B9A /* ReactExample */ = {
 			isa = PBXGroup;
 			children = (
+				2DA51B6B1FDC19410078F927 /* IntroCell.h */,
+				2DA51B671FDC19410078F927 /* IntroCell.m */,
+				2DA51B691FDC19410078F927 /* IntroViewController.h */,
+				2DA51B6A1FDC19410078F927 /* IntroViewController.m */,
+				2DA51B6C1FDC19410078F927 /* Main.storyboard */,
+				2DA51B6D1FDC19410078F927 /* ReactViewController.h */,
+				2DA51B681FDC19410078F927 /* ReactViewController.m */,
 				2DDB2F971FD9256000B43BE8 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				2D316B821FDBBE8300DB804B /* IntroViewController.h */,
-				2D316B831FDBBE8300DB804B /* IntroViewController.m */,
-				2D316B851FDBC87D00DB804B /* IntroCell.h */,
-				2D316B861FDBC87D00DB804B /* IntroCell.m */,
-				2D316B881FDBCCD400DB804B /* ReactViewController.h */,
-				2D316B891FDBCCD400DB804B /* ReactViewController.m */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				2D316B5F1FDBBE0300DB804B /* Main.storyboard */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 			);
@@ -908,7 +908,7 @@
 				2DDB2F981FD9256100B43BE8 /* main.jsbundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				2D316B601FDBBE0300DB804B /* Main.storyboard in Resources */,
+				2DA51B711FDC19410078F927 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -928,10 +928,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				2D316B8A1FDBCCD400DB804B /* ReactViewController.m in Sources */,
-				2D316B841FDBBE8300DB804B /* IntroViewController.m in Sources */,
-				2D316B871FDBC87D00DB804B /* IntroCell.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				2DA51B6F1FDC19410078F927 /* ReactViewController.m in Sources */,
+				2DA51B6E1FDC19410078F927 /* IntroCell.m in Sources */,
+				2DA51B701FDC19410078F927 /* IntroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
